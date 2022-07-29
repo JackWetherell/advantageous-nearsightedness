@@ -1,12 +1,18 @@
-# iDEA-project-template
+# Advantageous Nearsightedness
 
-Project description
+This repository allows you to reproduce the results of, and interact with the paper: Advantageous nearsightedness of many-body perturbation theory contrasted with Kohn-Sham density functional theory.
 
-Project image/gif
+- [Paper](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.045129).
+- [Preprint](https://arxiv.org/pdf/1812.02661.pdf).
+- [Reprint](https://jackwetherell.github.io/files/nearsightedness.pdf).
+
+![paper](paper.png)
 
 ## Requirements
 
-Requirements
+- iDEA-latest
+- numpy
+- matplotlib
 
 ## Installation
 
@@ -14,30 +20,18 @@ Requirements
 
 ## Usage
 
-`cd iDEA_project_template`
+`cd notebooks`
 
-`python main.py`
-
-## Example
-
-`cd iDEA_project_template`
-
-`python main.py`
-
-## Documentation
-
-Location of Documentation
+`jupyter lab`
 
 ## Directory structure
 ```
-|-- README                <- Project README
-|-- requirements.txt      <- Project dependencies
-|-- data                  <- Project data
-|   |-- raw               <- Raw data
-|   |-- input             <- Input data
-|   |-- output            <- Output data
-|-- docs                  <- Documentation
-|-- notebooks             <- Jupyter notebooks
-|-- iDEA_project_template <- Source files
-`-- tests                 <- Unit tests
+|-- README                         <- Project README
+|-- requirements.txt               <- Project dependencies
+|-- data                           <- Project data
+|   |-- raw                        <- Raw data
+|   |-- input                      <- Input data
+|   |-- output                     <- Output data
+|-- notebooks                      <- Jupyter notebooks
+|-- advantageous_nearsightedness   <- Source files
 ```
